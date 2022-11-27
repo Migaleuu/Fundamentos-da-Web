@@ -1,0 +1,102 @@
+*   {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 0px) and (max-width:767px) {
+
+    .header-conteiner img   {
+        width: 80px;
+        float: right;
+        margin-top: -40px;
+        position: relative;
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .box-conteiner {
+        width: 100%;
+        padding: 7%;
+        padding-top: 0%;
+        flex-wrap: wrap;
+
+    }
+    .box-conteiner div {
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width:768px) and (max-width:959px) {
+    .box-conteiner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .header-conteiner img {
+        display: none;
+    }
+    .box-conteiner div{
+        flex-direction: row;
+        display: inline;
+        width: 48%;
+    }
+    #box3   {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width:960px)    {
+
+    .header-conteiner img {
+        display: none;
+    }
+}
+
+
+
+.header-conteiner   {       /*parte do nome da "empresa"*/
+    border-style: solid;
+    border-color: black;
+    background-color: grey;
+    padding: 20px;
+    
+}
+
+h2, h3 {        /*titulos our menu, chicken, beef, sushi*/
+    text-align: center;
+    padding: 5px;
+}
+h2 {        /*titulo our menu*/
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.box-conteiner  {      /*box mae*/
+    display: flex;
+    justify-content: space-between;
+}
+.box-conteiner p    {
+    padding: 10px;
+}
+
+.box-conteiner div  {   /*box com conteudo*/
+    background-color: grey;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+
+footer  {
+    background-color: grey;
+    margin-top: 33%;
+    border-style: solid;
+    border-color: black;
+    padding: 0,5%;
+}

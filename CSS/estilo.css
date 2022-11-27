@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+    width: 1260px;
+}
+
+header  {       /*parte do banner*/
+    height: 300px;
+    background-image: url("../Imagens/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header img  {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    padding: 100px;
+}
+
+.title  {
+    margin-left: 370px;
+    margin-top: -390px;
+}
+.title  h1  {
+    text-align: center;
+}
+
+.boxMaior   {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+.boxMaior div   {
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.conteiner-footer   {
+    height: 350px;
+    padding:50px;
+    
+}
+
+.conteiner-footer div   {
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+.conteiner-footer div img   {
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    position: relative;
+}
+
+#container1 img, #container2 img, #container3 img {
+    opacity: 65%;
+}
+
+#container1 figcaption {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin-top: -210px;
+    margin-left: 90px;
+}
+
+#container2 figcaption {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin-top: -210px;
+    margin-left: 70px;
+}
+
+#container3 figcaption {
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin-top: -210px;
+    margin-left: 70px;
+}
+
+
+footer  {
+    background-image: url("../Imagens/footer.jfif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

@@ -1,0 +1,30 @@
+header {
+    width: 1245px;
+    height: 100px;
+    background-image: url("./Imagens/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer  {
+    width: 1245px;
+    height: 100px;
+    margin-top: 26%;
+    background-image: url("./Imagens/footer.jfif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1  {
+    text-align: center;
+}
+
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}

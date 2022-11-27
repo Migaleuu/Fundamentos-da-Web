@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Estilos de escrita</title>
+    
+<header>
+    <div>
+        <img src="./Imagens/CSS.jpeg" alt="Sem imagem">
+    </div>
+    <div class="title">
+        <h1><strong>Estilos de escrita</strong></h1>
+    </div>
+</header>
+
+<body>
+    <div class="conteiner">
+        <div>
+            <h2>OOCSS</h2>
+            <p>O método de escrita OOCSS tenta incentivar a reutilização de código. E está baseado
+                na separação da estrutra e do visual e a independência do conteiner em relação ao contéudo.
+                Ele é utilizado para se fazer o reaproveitamento das estruturas do código
+                mantendo um padrão, mas diferenciando vários comportamentos. Esse metódo também tenta 
+                minimizar o uso de seletores muito específicos e busca formatar os elementos com classes 
+                modulares.</p>
+            <p>
+                Esse método de escrita se aplica em circunstâncias onde se busca a reutilização do código CSS.
+                E seguindo esses pequenos detalhes, da para se contornar diversos problemas comuns no desenvolvimento.
+                Ele melhora o carregamento da página e os problemas de manunteção são solucionados.
+            </p>
+                
+        </div>
+        <div>
+            <h2>SMACSS</h2>
+            <p>
+                Criado pelo Yahoo hoje é uma dos mais conhecidas e utilizadas arquiteturas de CSS.
+                Esse método é baseado em 5 categorias de regras CSS: base, layout, module, state e theme.
+                <ul>
+                    <li>As regras de base são aplicadas a seletores de elementos não utilizando seletores com classes ou ids.
+                        Também inclui pseudo-classes e filhos usando apenas seletores de elementos.</li>
+                    <li>
+                        As categorias de layout e module são bem semelhantes, o sistema propõe que regras tenham ids ou classes 
+                        com o prefixo .1- como seletores. 
+                        E é na parte do layout onde é colocado os estilos das estruturas que não se repetem na página 
+                        como o header, footer, sidebar, main e todo resto que não é componente ou estrutura reutilizável. 
+                        As regras da categorias module englobam os demais componentes. Ele é responsável por determinar
+                        as partes reutilizáveis, os componentes. É utilizado como exemplo seletores do tipo .box, .title.
+                    </li>
+                    <li>
+                        A categoria de state engloba regras que são responsáveis por gerenciar o estado dos componentes
+                        enquando o usuário estiver navegando. Isso no caso de um elemento que será modificado ou terá alguma
+                        alteração, seja feita por JavaScript, ou por uma marcação da página.
+                    </li>
+                    <li>
+                        O theme é a parte que tem menos aplicações na maior parte dos casos. É utilizada para separar
+                        a parte que dá um novo design para a página. Foi desenvolvida para resolver um problema específico 
+                        onde o usuário poderia mudar o layout da sua página.
+                    </li>
+                </ul>
+                <p>
+                    Esse metódo não utiliza regras onde a localização do elemento passa a ser relevante
+                    para sua apresentação. Ele reforça que seja adicionada uma classe para abrigar as variações.
+                    Mas além de tudo este método não soluciona alguns desafios típicos do design de componentes
+                    de médio porte pois em nenhum momento endereça como nomear adequandamente elementos descendentes.
+                </p> 
+            </p>
+        </div>
+        <div>
+            <h2>BEM</h2>
+            <p>Com seu siginificado em "block, element, modifier" tem seu principal objetivo esclarecer o desenvolvedor 
+                mais sobre o markup através de suas classes. Ele é uma arquitetura amplamente usada pela comunidade
+                e uma das maiores referências quando o assunto é modularização e reaproveitamento do CSS. Este sistema 
+                permite escrever o sites de maneira rápida, auto-explicativa e com manutenção descomplicada. <br> 
+                
+                <ul>
+                    <li>
+                        O block é uma entidade independente da aplicação;
+                    </li>
+                    <li>
+                        O element é um descendente dependente de um block que possui uma certa função;
+                    </li>
+                    <li>
+                        O modifier é uma propriedade de um block ou element que altera sua aparência;
+                    </li>
+                </ul>
+                Um problema desse estilo de escrita é não possuir categorias. De acordo com o padrão, o estado de um 
+                componente deve ser endereçado como um modifier, não há uma categoria de state. O grande trunfo do padrão
+                é mesmo sugerir uma nomeclantura adequada para elementos descendentes. Mas com ele é fácil modularizar 
+                seu código e torná-lo reaproveitável, ele permite que qualquer pessoa que pague o seu código entenda
+                e possa dar manutenção sem problemas.</p>
+        </div>
+        <div>
+            <h2>DRY CSS</h2>
+            <p>
+                DRY CSS, traduzindo para o português "Não se repita". A ideia desse estilo é que você não repita estilos
+                ou propriedades dentro do CSS.
+                Em sua aplicação, geralmente é nomeado aquele grupo de seletor. A ideia é que cada grupo de seletor o mesmo
+                comece com um ID descrevendo aquele grupo, logo após venha os seletores e por fim termine com uma classe
+                com o mesmo valor do ID. O problema está no fato da técnica não sugerir melhor uso das classes de CSS. 
+                De acordo com o sistema, sempre que a aparência de um elemento mudar, sua classe precisará ser movida
+                para outros agrupamentos nas folhas de estilo.
+                Pode-se concluir que o DRY CSS é bem simples e tem como propósito evitar a repetição de código.
+            </p>
+            <ul class="lista">
+                <h3>Aqui vão estar algumas das vantagens de se utilizar o método DRY CSS:</h3>
+                <li>Ele é compatível com outras metodologias;</li>
+                <li>Simplicidade na organização;</li>
+                <li>Se o HTML precisa mudar, tudo ainda deve continuar funcionando;</li>
+                <li>Arquivos CSS com tamanhos menores.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+<footer>
+    <div>
+        <a href="../T - Homepage Atividades/index.html">Voltar para página atividades</a>
+    </div>
+</footer>
+</html>
