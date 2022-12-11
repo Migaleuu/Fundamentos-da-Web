@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório de strings</title>
+    <style>
+        textarea{
+            width: 400px;
+            height: 250px;
+        }
+    </style>
+    <script src="./javascript.js"></script>
+</head>
+<body>
+    <h1><strong>Exercícos</strong></h1>
+
+    <h2>1. Faça um programa que leia uma frase e escreva abaixo invertendo os caracteres:
+        <br>
+        - O primeiro se torna o último, o segundo o penúltimo e assim por diante.</h2>
+    <fieldset>
+        <input type="text" id="stringparainverter">
+        <button id = "testarinversao">Carregar</button>
+        <p id=respostainversao></p>
+    </fieldset>
+    
+
+    <h2>2. Faça um programa que leia uma frase e escreva abaixo marcando as vogais em negrito.</h2>
+    <fieldset>
+        <input type="text" id="fraseVogais">
+        <button id = "testarNegrito">Executar</button>
+        <p id= "respostaNegrito"></p>
+    </fieldset>
+
+
+
+    <h2>3. Faça um programa que leia um texto e separe todas as palavras em um array, indicado para cada uma delas 
+        o número de vezesque aparece no texto. Imprima o array em uma tabela contendo a palavra e número de 
+        ocorrências.</h2>
+    <fieldset>
+        <input type="text" id="fraseparacontagem">
+        <button id = "testarcontagem">Executar</button>
+        <p id= "respostacontagem"></p>
+    </fieldset>
+
+
+
+    <h2>4.Faça um programa que leia um texto e indique a palavra de maior ocorrência e quantas vezes ela apareceu no 
+        texto.</h2>
+        <fieldset>
+            <input type="text" id="fraseOcorrencia">
+            <button id = "buttonOcorrencia">Executar</button>
+            <p id= "respostaOcorrencia"></p>
+        </fieldset>
+
+
+
+    <h2>5. Faça um programa que implemente a funcionalidade substituir em textos, ou seja, terá um campo 
+        "procurar" e um campo "substituir". Ao executar, seu programa deverá procurar as ocorrências no texto do valor 
+        digitado em "procurar" e trocar pelo valor digitado em "substituir".</h2>
+    <fieldset>
+        <input type="text" id="fraseparaprosub"> Texto exemplo <br>
+        <input type="text" id="fraseparaprocurar"> Texto Para Procurar <br>
+        <input type="text" id="fraseparasubstituir"> Texto Para Substituir <br>
+        <button id = "executasub">executar</button>
+        
+        <p id="respostaprocsub"></p>
+    </fieldset>
+
+
+
+    <h2> 6.Faça um programa que leia uma data de nascimento e retorne quantos dias de vida a pessoa tem.</h2>
+    <fieldset>
+        <input type="text" id="datebase"> Digite a data (ano-mes-dia) <br>
+        <button id = "executadatebase">executar</button>
+        
+        <p id="respostadate"></p>
+    </fieldset>
+
+    <h2>7.Faça um programa que leia uma data de nascimento em formato de dd/mm/aaaa e escreva por extenso a data. 
+        Por exemplo: 03/05/2017 vira "03 de maio de 2017".</h2>
+    <fieldset>
+        <input type="text" id="textoData">
+        <button id = "dataPorExtenso">Executar</button>
+        <p id= "respostaDataPorExtenso"></p>
+    </fieldset>
+
+
+    <h2>8.Faça um programa que leia duas datas e indique em semanas a distância entre elas. 
+        Por exemplo: 02/05/2017 e 02/07/2017 resultado = 8 semanas.</h2>
+    <fieldset>
+        <input type="text" id="data1">
+        <input type="text" id="date2">
+        <button id = "buttonSemanas">Executar</button>
+        <p id= "respostaSemanas"></p>
+    </fieldset>
+    
+
+    <h2>9.Faça uma caixa de texto que classifique:
+        <br>
+        - Fraca (em vermelho) se só possuir letras minúsculas ou maiúsculas
+        <br>
+        - Moderada (em laranja) se possuir letras minúsculas e maiúsculas e números
+        <br>
+        - Forte (em verde) se possuir letras minúsculas e maiúsculas, números e caracteres
+        especiais (@, #, !, $, %, &, *, (, ), -, +, ., =)</h2>
+    <fieldset style="height: 40px;">
+        <input type="text" id="senha">
+        <button id = "buttonSenha">Executar</button>
+        <p id= "respostaSenha"></p>
+        <div id="color" style="width: 20px;height: 10px;margin-top: -5px;"></div>
+    </fieldset>
+    
+
+    <h2>10.Faça um programa que codifique uma frase usando a estratégia
+        ENIS/POLAR, na qual as letras que apareçam em uma das palavras são intercambiadas:
+        <br>
+        -A letra T por P e vice-versa; 
+        <br>
+        -A letra E por O e vice-versa; 
+        <br>
+        -A letra N por Le vice-versa;
+        <br>
+        -A letra Ipor A e vice-versa; 
+        <br>
+        - E aletra S por R e vice-versa; 
+        <br>
+        As demais letras devem ser mantidasno texto codificado.</h2>
+    <fieldset>
+        <input type="text" id="fraseParaCodificar">
+        <button id = "buttonCodifica">Executar</button>
+        <p id= "respostaCodificada"></p>
+    </fieldset>
+
+</body>
+</html>
