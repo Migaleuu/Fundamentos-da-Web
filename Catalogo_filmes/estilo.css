@@ -1,0 +1,198 @@
+.filmes{
+    height: 350px;
+    margin-bottom: 40px;
+    
+}
+
+.catalogo {
+    background-color: #b8cad4;
+    height: 5450px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+.classificao18{
+    background-color: red;
+    width: 50px;
+    height: 40px;
+    margin-left: 510px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+.classificao14, .classificao15, .classificao16, .classificao17 {
+    background-color: yellow;
+    width: 50px;
+    height: 40px;
+    margin-left: 510px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+.classificao0, .classificao1, .classificao2, .classificao3, 
+.classificao4, .classificao5, .classificao6, .classificao7, 
+.classificao8, .classificao9, .classificao10, .classificao11, 
+.classificao12,.classificao13  {
+    background-color: green;
+    width: 50px;
+    height: 40px;
+    margin-left: 510px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+.ranking5 {
+    background-image: url("./Imagens/estrela5.png");
+    width: 70px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.ranking4{
+    background-image: url("./Imagens/estrela4.png");
+    width: 70px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.ranking3 {
+    background-image: url("./Imagens/estrela3.png");
+    width: 70px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.ranking2 {
+    background-image: url("./Imagens/estrela2.png");
+    width: 70px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.ranking1 {
+    background-image: url("./Imagens/estrela1.png");
+    width: 70px;
+    height: 40px;
+    margin-left: 420px;
+    margin-top: -40px;
+    margin-bottom: -50px;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.similares1 {
+    background-image: url("./Imagens/BetterCallSaul.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+}
+
+.similares2 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/breakingbad.png");
+}
+
+
+.similares3 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/HouseOfCards.png");
+}
+
+.similares4 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Narcos.jfif");
+}
+
+.similares5, .similares6 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Imagens/Carros.jfif");
+}
+
+.similares7 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Familia\ da\ pesada.jpg");
+}
+
+.similares8 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Valente.jpg");
+}
+
+.similares9 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Friends.jfif");
+}
+
+.similares10 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/House.png");
+}
+
+.similares11 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Maos\ talentosas.png");
+}
+
+.similares12 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Familia\ Moderna.jfif");
+}
+
+.similares13 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Scarface.png");
+}
+
+.similares14 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/That\ \'70s\ Show.png");
+}
+
+.similares15 {
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    margin-top: -10px;
+    background-image: url("./Imagens/Zumbilandia.jfif");
+}
