@@ -1,0 +1,1293 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    
+}
+
+.ul-menu {
+    z-index: 100;
+}
+
+@media (min-width: 0px) and (max-width:767px) {
+    .linha1 {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    a:hover{
+        background-color: rgba(255,255,255,.3);
+    }
+
+    .linha2{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 20px;
+
+    }
+    
+    .container {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgsol{
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    
+    
+    .container p, li{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    h3, li {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #imagemSol {
+        text-align:center;
+    }
+
+    #imgForaTerra{
+        margin-top: 20px;
+        width: auto;
+        text-align: center;
+    }
+    
+    #imgForaTerra img {
+        width: 435px;
+    }
+
+    .container img {
+        max-width:500px;
+        max-height:400px;
+        text-align: center;
+    }
+    
+    h3  {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    body {
+        background-image: url("../Imagens/Fundo.png");
+        background-size: cover;
+    }
+    
+    #logo {
+        padding: 10px;
+        float: right;
+    }
+    
+    #logo img {
+        max-width: 100px;
+        aspect-ratio: 1;
+    }
+    
+    #home {
+        color: white;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 50%;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #home ul li {
+        display: inline-block;
+        padding-right: 40px;
+        font-weight: 500;
+        font-size:large;
+    }
+    
+    #banner {
+        display: flex;
+        height: 100px;
+    
+    }
+    
+    #bigBox {
+        display: flex;
+    }
+    
+    #conteudo {
+        .linha1 {
+        display: flex;
+        width: 90%;
+        align-items: center;
+    }
+
+    .linha2{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 20px;
+
+    }
+    
+    .container {
+        width: auto;
+        min-width: 967px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgsol{
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    
+    
+    .container p, li{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    h3, li {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #imagemSol {
+        text-align:center;
+        margin-left: -100px;
+    }
+
+    #imgForaTerra{
+        margin-top: 20px;
+        width: 500px;
+        margin-left: 25px;
+        margin-left: 250px;
+    }
+    
+    #imgForaTerra img {
+        width: 435px;
+    }
+
+    .container img {
+        max-width:500px;
+        max-height:400px;
+        text-align: center;
+    }
+    
+    h3  {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    body {
+        background-image: url("../Imagens/Fundo.png");
+        background-size: cover;
+    }
+    
+    #logo {
+        padding: 10px;
+        float: right;
+    }
+    
+    #logo img {
+        max-width: 100px;
+        aspect-ratio: 1;
+    }
+    
+    #home {
+        color: white;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 40%;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #home ul li {
+        display: inline-block;
+        padding-right: 40px;
+        font-weight: 500;
+        font-size:large;
+    }
+    
+    #banner {
+        display: flex;
+        height: 100px;
+    
+    }
+    
+    #bigBox {
+        display: flex;
+    }
+    
+    #conteudo {
+        min-height: 400px;
+        
+        /* //background-color: aliceblue; */
+    }
+    
+    #conteudo p {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        border-radius: 20px;
+        
+    }
+    
+    #conteudo h2 {
+        color: white;
+        font-weight: 900;
+        font-size: 48px;
+        text-align: center;
+        margin-left: -100px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        
+    }
+    
+    #principal {
+        height: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    .planets {
+        display:inline-block;
+        height: 400px;
+        flex: 1;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .planets::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 200ms all ease-in-out;
+        opacity: 0.6;
+    }
+    
+    #bigBox:hover .planets::after {
+        background-color: black;
+    
+    }
+    
+    .planets a {
+        position: absolute;
+        bottom: 10%;
+        z-index: 2;
+        left: 10%;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(185%);
+        opacity: 0;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+    }
+    
+    .planets:hover a {
+       
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .planets:hover::after{
+      opacity: 0;
+    
+        
+    }
+    
+    .planets:hover {
+        flex: 3;
+    }
+    .planets img {
+        object-fit: contain;
+        max-height: 100%;
+        transform: translateX(20%) ;
+        position: absolute;
+        right: 0;
+    }
+    
+    #conteudo {
+        width: auto;
+        border-style: solid;
+    }
+    
+    #rodape {
+        height: auto;
+        background-color: rgb(0, 0, 27);
+    }
+    
+    #rodape p {
+        color: rgb(193, 213, 231);
+        text-align: center;
+        margin: 0;
+        padding: 8px 0;
+    }
+        
+        /* //background-color: aliceblue; */
+    }
+    
+    #conteudo p {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        border-radius: 20px;
+        
+    }
+    
+    #conteudo h2 {
+        color: white;
+        font-weight: 900;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 15px;
+        
+    }
+    
+    #principal {
+        height: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    .planets {
+        display:inline-block;
+        height: 400px;
+        flex: 1;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .planets::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 200ms all ease-in-out;
+        opacity: 0.6;
+    }
+    
+    #bigBox:hover .planets::after {
+        background-color: black;
+    
+    }
+    
+    .planets a {
+        position: absolute;
+        bottom: 10%;
+        z-index: 2;
+        left: 10%;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(185%);
+        opacity: 0;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+    }
+    
+    .planets:hover a {
+       
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .planets:hover::after{
+      opacity: 0;
+    
+        
+    }
+    
+    .planets:hover {
+        flex: 3;
+    }
+    .planets img {
+        object-fit: contain;
+        max-height: 100%;
+        transform: translateX(20%) ;
+        position: absolute;
+        right: 0;
+    }
+    
+    #conteudo {
+        margin-bottom: 40px;
+       
+    }
+    
+    #rodape {
+        height: auto;
+        background-color: rgb(0, 0, 27);
+    }
+    
+    #rodape p {
+        color: rgb(193, 213, 231);
+        text-align: center;
+        margin: 0;
+        padding: 8px 0;
+    }
+    #home ul li,a {
+        list-style: none;
+        text-decoration: none;
+    }
+    #home a img {
+        width: 50px;
+        margin-left: 30%;
+    }
+
+    .link:hover{
+        background-color: rgba(255,255,255,.3);
+    }
+
+    .ul-menu a {
+        color: white;
+        margin-left: 40px;
+    }
+
+    .ul-menu {
+        position: relative;
+    }
+
+    #home {
+        position: relative;
+    }
+
+    .ul-menu {
+        display: none;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 27);
+        height: 200px;
+        padding: 0;
+        width: auto !important;
+        position: absolute;
+        top: 20%;
+        right: 0;
+        z-index: 100;
+    }
+
+    #home ul li,a {
+        list-style: none;
+        text-decoration: none;
+    }
+    #home a img {
+        display: flex;
+        width: 50px;
+    }
+
+    .link:hover{
+        background-color: rgba(255,255,255,.3);
+    }
+
+    .ul-menu a {
+        color: white;
+    }
+
+    .ul-menu {
+        position: relative;
+        width: 80px;
+        margin-right: 300px;
+        z-index: 100;
+    }
+
+    .ul-menu li {
+        margin-left: 0px;
+    }
+
+    .imgLink  {
+        margin-right: 335px;
+    }
+    .ul-menu {
+        display: none;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 27);
+        margin-left: 0px;
+
+    }
+    #home {
+        margin-left:310px;
+        height: 325px;
+    }
+}
+
+@media (max-width:600px) {
+    #home {
+        height: auto;
+        margin: 0;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:959px) {
+    .linha1 {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .linha2{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 20px;
+
+    }
+    
+    .container {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgsol{
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    
+    
+    .container p, li{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    h3, li {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #imagemSol {
+        text-align:center;
+    }
+
+    #imgForaTerra{
+        margin-top: 20px;
+        width: auto;
+        text-align: center;
+    }
+    
+    #imgForaTerra img {
+        width: 435px;
+    }
+
+    .container img {
+        max-width:500px;
+        max-height:400px;
+        text-align: center;
+    }
+    
+    h3  {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    body {
+        background-image: url("../Imagens/Fundo.png");
+        background-size: cover;
+    }
+    
+    #logo {
+        padding: 10px;
+        float: right;
+    }
+    
+    #logo img {
+        max-width: 100px;
+        aspect-ratio: 1;
+    }
+    
+    #home {
+        color: white;
+        margin: 15px;
+        padding: 15px;
+        margin-left: 50%;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #home ul li {
+        display: inline-block;
+        padding-right: 40px;
+        font-weight: 500;
+        font-size:large;
+    }
+    
+    #banner {
+        display: flex;
+        height: 100px;
+    
+    }
+    
+    #bigBox {
+        display: flex;
+    }
+    
+    #conteudo {
+        .linha1 {
+        display: flex;
+        width: 90%;
+        align-items: center;
+    }
+
+    .linha2{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 20px;
+
+    }
+    
+    .container {
+        width: auto;
+        min-width: 967px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgsol{
+        text-align: center;
+        margin-top: 40px;
+    
+    }
+    
+    
+    .container p, li{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    h3, li {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #imagemSol {
+        text-align:center;
+        margin-left: -100px;
+    }
+
+    #imgForaTerra{
+        margin-top: 20px;
+        width: 500px;
+        margin-left: 25px;
+        margin-left: 250px;
+    }
+    
+    #imgForaTerra img {
+        width: 435px;
+    }
+
+    .container img {
+        max-width:500px;
+        max-height:400px;
+        text-align: center;
+    }
+    
+    h3  {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    body {
+        background-image: url("../Imagens/Fundo.png");
+        background-size: cover;
+    }
+    
+    #logo {
+        padding: 10px;
+        float: right;
+    }
+    
+    #logo img {
+        max-width: 100px;
+        aspect-ratio: 1;
+    }
+    
+    #home {
+        color: white;
+        margin: 15px;
+        padding: 15px;
+        border: solid;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #home ul li {
+        display: inline-block;
+        padding-right: 40px;
+        font-weight: 500;
+        font-size:large;
+    }
+    
+    #banner {
+        display: flex;
+        height: 100px;
+    
+    }
+    
+    #bigBox {
+        display: flex;
+    }
+    
+    #conteudo {
+        min-height: 400px;
+        
+        /* //background-color: aliceblue; */
+    }
+    
+    #conteudo p {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        border-radius: 20px;
+        
+    }
+    
+    #conteudo h2 {
+        color: white;
+        font-weight: 900;
+        font-size: 48px;
+        text-align: center;
+        margin-left: -100px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        
+    }
+    
+    #principal {
+        height: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    .planets {
+        display:inline-block;
+        height: 400px;
+        flex: 1;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .planets::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 200ms all ease-in-out;
+        opacity: 0.6;
+    }
+    
+    #bigBox:hover .planets::after {
+        background-color: black;
+    
+    }
+    
+    .planets a {
+        position: absolute;
+        bottom: 10%;
+        z-index: 2;
+        left: 10%;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(185%);
+        opacity: 0;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+    }
+    
+    .planets:hover a {
+       
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .planets:hover::after{
+      opacity: 0;
+    
+        
+    }
+    
+    .planets:hover {
+        flex: 3;
+    }
+    .planets img {
+        object-fit: contain;
+        max-height: 100%;
+        transform: translateX(20%) ;
+        position: absolute;
+        right: 0;
+    }
+    
+    #conteudo {
+        width: auto;
+        border-style: solid;
+    }
+    
+    #rodape {
+        height: auto;
+        background-color: rgb(0, 0, 27);
+    }
+    
+    #rodape p {
+        color: rgb(193, 213, 231);
+        text-align: center;
+        margin: 0;
+        padding: 8px 0;
+    }
+        
+        /* //background-color: aliceblue; */
+    }
+    
+    #conteudo p {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        border-radius: 20px;
+        
+    }
+    
+    #conteudo h2 {
+        color: white;
+        font-weight: 900;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 15px;
+        
+    }
+
+    #home a {
+        margin-left: 100px;
+    }
+    
+    #principal {
+        height: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    .planets {
+        display:inline-block;
+        height: 400px;
+        flex: 1;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .planets::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 200ms all ease-in-out;
+        opacity: 0.6;
+    }
+    
+    #bigBox:hover .planets::after {
+        background-color: black;
+    
+    }
+    
+    .planets a {
+        position: absolute;
+        bottom: 10%;
+        z-index: 2;
+        left: 10%;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(185%);
+        opacity: 0;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+    }
+    
+    .planets:hover a {
+       
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .planets:hover::after{
+      opacity: 0;
+    
+        
+    }
+    
+    .planets:hover {
+        flex: 3;
+    }
+    .planets img {
+        object-fit: contain;
+        max-height: 100%;
+        transform: translateX(20%) ;
+        position: absolute;
+        right: 0;
+    }
+    
+    #conteudo {
+        margin-bottom: 40px;
+       
+    }
+    
+    #rodape {
+        height: auto;
+        background-color: rgb(0, 0, 27);
+    }
+    
+    #rodape p {
+        color: rgb(193, 213, 231);
+        text-align: center;
+        margin: 0;
+        padding: 8px 0;
+    }
+
+    #home ul li,a {
+        list-style: none;
+        text-decoration: none;
+    }
+    #home a img {
+        width: 50px;
+        margin-left: 30%;
+    }
+
+    .link:hover{
+        background-color: rgba(255,255,255,.3);
+    }
+
+    .ul-menu a {
+        color: white;
+    }
+
+    .ul-menu {
+        position: relative;
+        width: 80px;
+        margin-right: 200px;
+    }
+
+    .ul-menu li {
+        margin-left:-135px;
+    }
+
+    .imgLink  {
+        margin-right: 335px;
+    }
+    .ul-menu {
+        display: none;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 27);
+        margin-left: 170px;
+
+    }
+    #home {
+        margin-left:310px;
+        height: 325px;
+    }
+
+}
+
+@media (min-width:960px)    {
+    .linha1 {
+        display: flex;
+        width: 45%;
+        align-items: center;
+    }
+
+    .link:hover{
+        background-color: rgba(255,255,255,.3);
+    }
+
+    .linha2{
+        display: flex;
+        width: 45%;
+        align-items: center;
+        margin-left: 55%;
+        margin-top: 300px;
+    }
+    
+    .container {
+        width: auto;
+        min-width: 967px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .imgsol{
+        text-align: center;
+        margin: 120px 0;
+    
+    }
+    
+    
+    .container p, li{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    h3, li {
+        color: white;
+        font-size: 20px;
+    }
+    
+    #imagemSol {
+        text-align:right;
+        margin-top: -460px;
+        
+    }
+
+    #imgForaTerra{
+        margin-top: -450px;
+        width: 500px;
+        margin-bottom: 300px;
+
+    }
+    
+    #imgForaTerra img {
+        width: 435px;
+    }
+
+    .container img {
+        max-width:500px;
+        max-height:400px;
+        text-align: center;
+    }
+    
+    h3  {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    
+    
+    body {
+        background-image: url("../Imagens/Fundo.png");
+        background-size: cover;
+    }
+    
+    #logo {
+        padding: 10px;
+        float: right;
+    }
+    
+    #logo img {
+        max-width: 100px;
+        aspect-ratio: 1;
+    }
+    
+    #home {
+        color: white;
+        margin: 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #home ul li,a {
+        list-style: none;
+        text-decoration: none;
+    }
+    #home a img {
+        width: 50px;
+    }
+
+    .ul-menu a {
+        color: white;
+    }
+
+    .ul-menu li {
+        margin-left: -30px;
+    }
+
+    .ul-menu {
+        display: none;
+        border-radius: 10px;
+        background-color: rgb(0, 0, 27);
+        margin-left: -85px;
+    }
+
+    #banner {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    
+    }
+    
+    #bigBox {
+        display: flex;
+    }
+    
+    #conteudo {
+        min-height: 400px;
+        
+        /* //background-color: aliceblue; */
+    }
+    
+    #conteudo p {
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        border-radius: 20px;
+        
+    }
+    
+    #conteudo h2 {
+        color: white;
+        font-weight: 900;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 15px;
+        
+    }
+    
+    #principal {
+        height: 400px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+    
+    .planets {
+        display:inline-block;
+        height: 400px;
+        flex: 1;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .planets::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 200ms all ease-in-out;
+        opacity: 0.6;
+    }
+    
+    #bigBox:hover .planets::after {
+        background-color: black;
+    
+    }
+    
+    .planets a {
+        position: absolute;
+        bottom: 10%;
+        z-index: 2;
+        left: 10%;
+        color: white;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        transform: translateY(185%);
+        opacity: 0;
+        transition:400ms all cubic-bezier(0.23, 0.82, 0.28, 0.97);
+    }
+    
+    .planets:hover a {
+       
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    .planets:hover::after{
+      opacity: 0;
+    
+        
+    }
+    
+    .planets:hover {
+        flex: 3;
+    }
+    .planets img {
+        object-fit: contain;
+        max-height: 100%;
+        transform: translateX(20%) ;
+        position: absolute;
+        right: 0;
+    }
+    
+    #conteudo {
+        margin-bottom: 40px;
+       
+    }
+    
+    #rodape {
+        height: auto;
+        background-color: rgb(0, 0, 27);
+    }
+    
+    #rodape p {
+        color: rgb(193, 213, 231);
+        text-align: center;
+        margin: 0;
+        padding: 8px 0;
+    }
+    
+}
+
